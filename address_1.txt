@@ -1,0 +1,125 @@
+tutorials = [
+    [ "Setting up an OGRE project", "setup.html", [
+      [ "CMake Configuration", "setup.html#cmake"],
+      [ "Application skeleton", "setup.html#skeleton"]
+    ] ],
+    [ "Your First Scene", "tut__first_scene.html", [
+      [ "How Ogre Works", "tut__first_scene.html#howogreworks", [
+        [ "SceneManager", "tut__first_scene.html#scenemanager"],
+        [ "SceneNode", "tut__first_scene.html#SceneNode"],
+        [ "Entity", "tut__first_scene.html#Entity"]
+      ] ],
+      [ "Setting Up the Scene", "tut__first_scene.html#SettingUptheScene"],
+      [ "Coordinates Systems", "tut__first_scene.html#CoordinatesSystems"],
+      [ "Adding Another Entity", "tut__first_scene.html#AddingAnotherEntity"],
+      [ "More About Entities", "tut__first_scene.html#MoreAboutEntities"],
+      [ "More About SceneNodes", "tut__first_scene.html#MoreAboutSceneNodes"],
+      [ "Changing An Entity's Scale", "tut__first_scene.html#ChangingAnEntitysScale"],
+      [ "Rotating An Entity", "tut__first_scene.html#RotatingAnEntity"],
+      [ "The Ogre Environment", "tut__first_scene.html#TheOgreEnvironment", [
+        [ "Libraries and Plugins", "tut__first_scene.html#LibrariesandPlugins", [
+          [ "Main library", "tut__first_scene.html#Mainlibrary"],
+          [ "Plugins", "tut__first_scene.html#Plugins"],
+          [ "Third-party Plugins", "tut__first_scene.html#ThirdpartyPlugins"],
+          [ "Testing vs Release", "tut__first_scene.html#TestingvsRelease"]
+        ] ],
+        [ "Configuration Files", "tut__first_scene.html#ConfigurationFiles", [
+          [ "Plugin Configuration", "tut__first_scene.html#PluginConfiguration"],
+          [ "Resource Configuration", "tut__first_scene.html#ResourceConfiguration"],
+           [[   [ "Media Configuration", "tut__first_scene.html#MediaConfiguration"],
+          [ "Ogre Configuration", "tut__first_scene.html#OgreConfiguration"],
+          [ "Quake 3 Settings Configuration", "tut__first_scene.html#Quake3SettingsConfiguration"]
+        ] ]
+      ] ],
+      [ "Conclusion", "tut__first_scene.html#Conclusion1"],
+    ] ],
+    [ "Lights, Cameras, and Shadows", "tut__lights_cameras_shadows.html", [
+      [ "The Ogre Camera Class", "tut__lights_cameras_shadows.html#bt2TheOgreCameraClass"],
+      [ "Creating a Camera", "tut__lights_cameras_shadows.html#bt2CreatingaCamera"],
+      [ "Viewports", "tut__lights_cameras_shadows.html#bt2Viewports"],
+      [ "Creating a Viewport", "tut__lights_cameras_shadows.html#bt2CreatingaViewport"],
+      [ "Building the Scene", "tut__lights_cameras_shadows.html#bt2BuildingtheScene"],
+      [ "Using Shadows in Ogre", "tut__lights_cameras_shadows.html#bt2UsingShadowsinOgre"],
+      [ "Lights", "tut__lights_cameras_shadows.html#bt2Lights"],
+      [ "Creating a Light", "tut__lights_cameras_shadows.html#CreatingaLight"],
+      [ "Creating More Lights", "tut__lights_cameras_shadows.html#CreatingMoreLights"],
+      [ "Shadow Types", "tut__lights_cameras_shadows.html#ShadowTypes"],
+      [ "Conclusion", "tut__lights_cameras_shadows.html#Conclusion2"]
+    ] ],
+    [ "RTSS: Run Time Shader System", "rtss.html", [
+      [ "Core features of the system", "rtss.html#core-feats"],
+      [ "System overview", "rtss.html#rtss_overview", [
+        [ "Customising via API", "rtss.html#rtss_custom_api"],
+        [ "Customizing via Material Script", "rtss.html#rtss_custom_mat"]
+      ] ],
+      [ "The RTSS in Depth", "rtss.html#rtss_indepth", [
+        [ "Main components", "rtss.html#rtss__components"],
+        [ "Creating custom shader extensions", "rtss.html#creating-extensions"],
+        [ "Tips for debugging shaders", "rtss.html#debugging"]
+      ] ],
+      [ "Historical background", "rtss.html#history"],
+      [ "Pros and Cons", "rtss.html#pros-cons"]
+    ] ],
+    [ "HLMS: High Level Material System", "hlms.html", [
+      [ "The three components", "hlms.html#components"],
+      [ "Compared to classical materials", "hlms.html#materials"],
+      [ "Material parameters are stored in “Blocks”", "hlms.html#data", [
+        [ "Datablocks", "hlms.html#toc52"]
+      ] ],
+      [ "Hlms templates", "hlms.html#toc69", [
+        [ "The Hlms preprocessor", "hlms.html#preproc"],
+        [ "Preprocessor syntax", "hlms.html#syntax"]
+      ] ],
+      [ "Creation of shaders", "hlms.html#shaders"],
+      [ "C++ interaction with shader templates", "hlms.html#cpp"],
+      [ "Customization", "hlms.html#customization"]
+    ] ],
+    [ "Trays GUI System", "trays.html", [
+      [ "Trays", "trays.html#trays-1"],
+      [ "TrayManager", "trays.html#traymanager"],
+      [ "Widgets", "trays.html#widgets"],
+      [ "Special Widgets", "trays.html#special-widgets"],
+      [ "TrayListener", "trays.html#tray-listener"],
+      [ "Things to Try", "trays.html#things-to-try"]
+    ] ],
+    [ "Volume Component", "volume.html", [
+      [ "How to use it", "volume.html#howto"],
+      [ "Manual creation of a CSG-Tree", "volume.html#creation"],
+      [ "Getting the triangles of the chunks", "volume.html#triangles"],
+      [ "Intersecting a ray with a volume", "volume.html#intersecting"],
+      [ "Editing a Volume made from a GridSource", "volume.html#editing"]
+    ] ],
+    [ "Using the Profiler", "profiler.html"],
+    [ "Shadow Mapping in Ogre", "_shadow_mapping_ogre.html", [
+      [ "Introduction to the Shadow Mapping Algorithm", "_shadow_mapping_ogre.html#ShadowMappingIntro", [
+        [ "Formalism", "_shadow_mapping_ogre.html#sm_formalism"],
+        [ "Depth Biasing", "_shadow_mapping_ogre.html#DepthBias"],
+        [ "Percentage Closest Filtering", "_shadow_mapping_ogre.html#sm_pcm"]
+      ] ],
+      [ "Variants", "_shadow_mapping_ogre.html#sm_variants", [
+        [ "Storing Additional Info", "_shadow_mapping_ogre.html#sm_additional_info"],
+        [ "Breaking up Shadow Frusta", "_shadow_mapping_ogre.html#sm_breaking_frusta"],
+        [ "Playing with Projection Matrices", "_shadow_mapping_ogre.html#sect_planeopt"]
+      ] ],
+      [ "Theory and Analysis", "_shadow_mapping_ogre.html#sm_theory", [
+        [ "(Non)Optimality of Logarithmic Shadow Maps", "_shadow_mapping_ogre.html#sm_nonopt"],
+        [ "Sampling Aliasing versus Depth Precision Aliasing", "_shadow_mapping_ogre.html#sm_aliasing"],
+        [ "Projective versus Perspective Aliasing", "_shadow_mapping_ogre.html#sm_proj_aliasing"]
+      ] ],
+      [ "Implementation", "_shadow_mapping_ogre.html#Implementation"]
+    ] ],
+    [ "Deferred Shading", "deferred.html", [
+      [ "What is Deferred Shading?", "deferred.html#what"],
+      [ "Creating the G-Buffer", "deferred.html#creating"],
+      [ "Lighting the scene", "deferred.html#lighting", [
+        [ "Rendering the light geometry", "deferred.html#lightgeom"]
+      ] ],
+      [ "Post Processing", "deferred.html#post"],
+      [ "Integration in real projects", "deferred.html#realprojects"],
+      [ "Summary", "deferred.html#summary", [
+        [ "Further reading", "deferred.html#further"]
+      ] ]
+    ] ],
+    [ "External Texture Sources", "_external-_texture-_sources.html"],
+    [ "Using the PCZ Scene Manager", "pczscenemanager.html"]
+end

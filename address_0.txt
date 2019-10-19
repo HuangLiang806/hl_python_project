@@ -1,0 +1,92 @@
+manual = [
+    [ "Introduction", "_introduction.html" ],
+    [ "The Core Objects", "_the-_core-_objects.html",
+      [ "The Root object", "_the-_core-_objects.html#The-Root-Object"],
+      [ "The RenderSystem object", "_the-_core-_objects.html#The-RenderSystem-object"],
+      [ "The SceneManager object", "_the-_core-_objects.html#The-SceneManager-object"],
+      [ "The ResourceGroupManager Object", "_the-_core-_objects.html#The-ResourceGroupManager-Object"],
+      [ "The Mesh Object", "_the-_core-_objects.html#The-Mesh-Object"],
+      [ "Entities", "_the-_core-_objects.html#Entities"],
+      [ "Materials", "_the-_core-_objects.html#Materials"],
+      [ "Overlays", "_the-_core-_objects.html#Overlays"]
+    ],
+    [ "Scripts", "_scripts.html", "_scripts" ],
+    [ "High-level Programs", "_high-level-_programs.html", [
+      [ "Cg programs", "_high-level-_programs.html#Cg"],
+      [ "DirectX9 HLSL", "_high-level-_programs.html#HLSL"],
+      [ "OpenGL GLSL", "_high-level-_programs.html#GLSL", [
+        [ "GLSL Texture Samplers", "_high-level-_programs.html#GLSL-Texture-Samplers"],
+        [ "Matrix parameters", "_high-level-_programs.html#Matrix-parameters"],
+        [ "Accessing OpenGL states in GLSL", "_high-level-_programs.html#Accessing-OpenGL-states-in-GLSL"],
+        [ "Binding vertex attributes", "_high-level-_programs.html#Binding-vertex-attributes"],
+        [ "Preprocessor definitions", "_high-level-_programs.html#Preprocessor-definitions"],
+        [ "GLSL Geometry shader specification", "_high-level-_programs.html#GLSL-Geometry-shader-specification"]
+      ] ],
+      [ "Unified High-level Programs", "_high-level-_programs.html#Unified-High_002dlevel-Programs"],
+      [ "Using GPU Programs in a Pass", "_high-level-_programs.html#Using-Vertex_002fGeometry_002fFragment-Programs-in-a-Pass", [
+        [ "Parameter specification", "_high-level-_programs.html#Program-Parameter-Specification"]
+      ] ],
+      [ "Shadows and Vertex Programs", "_high-level-_programs.html#Shadows-and-Vertex-Programs"],
+      [ "Skeletal Animation in Vertex Programs", "_high-level-_programs.html#Skeletal-Animation-in-Vertex-Programs"],
+      [ "Morph Animation in Vertex Programs", "_high-level-_programs.html#Morph-Animation-in-Vertex-Programs"],
+      [ "Pose Animation in Vertex Programs", "_high-level-_programs.html#Pose-Animation-in-Vertex-Programs"],
+      [ "Vertex texture fetching in vertex programs", "_high-level-_programs.html#Vertex-texture-fetching-in-vertex-programs"],
+      [ "Adjacency information in Geometry Programs", "_high-level-_programs.html#Adjacency-information-in-Geometry-Programs"],
+      [ "Vertex Texture Fetch", "_high-level-_programs.html#Vertex-Texture-Fetch"]
+    ] ],
+    [ "Mesh Tools", "_mesh-_tools.html", [
+      [ "Exporters", "_mesh-_tools.html#Exporters"],
+      [ "XMLConverter", "_mesh-_tools.html#XMLConverter"],
+      [ "MeshUpgrader", "_mesh-_tools.html#MeshUpgrader"]
+    ] ],
+    [ "Hardware Buffers", "_hardware-_buffers.html", [
+      [ "Buffer Usage", "_hardware-_buffers.html#Buffer-Usage", [
+        [ "Shadow Buffers", "_hardware-_buffers.html#Shadow-Buffers"],
+        [ "Locking buffers", "_hardware-_buffers.html#Locking-buffers"],
+        [ "Practical Buffer Tips", "_hardware-_buffers.html#Practical-Buffer-Tips"]
+      ] ],
+      [ "Hardware Vertex Buffers", "_hardware-_buffers.html#Hardware-Vertex-Buffers", [
+        [ "The VertexData class", "_hardware-_buffers.html#The-VertexData-class"],
+        [ "Vertex Declarations", "_hardware-_buffers.html#Vertex-Declarations"],
+        [ "Important Considerations", "_hardware-_buffers.html#Important-Considerations"],
+        [ "Vertex Buffer Bindings", "_hardware-_buffers.html#Vertex-Buffer-Bindings"],
+        [ "Creating the Vertex Buffer", "_hardware-_buffers.html#Creating-the-Vertex-Buffer"],
+        [ "Binding the Vertex Buffer", "_hardware-_buffers.html#Binding-the-Vertex-Buffer"],
+        [ "Updating Vertex Buffers", "_hardware-_buffers.html#Updating-Vertex-Buffers"]
+      ] ],
+      [ "Hardware Index Buffers", "_hardware-_buffers.html#Hardware-Index-Buffers", [
+        [ "The IndexData class", "_hardware-_buffers.html#The-IndexData-class"],
+        [ "Updating Index Buffers", "_hardware-_buffers.html#Updating-Index-Buffers"]
+      ] ],
+      [ "Hardware Pixel Buffers", "_hardware-_buffers.html#Hardware-Pixel-Buffers", [
+        [ "Textures", "_hardware-_buffers.html#Textures", [
+          [ "Creating a texture", "_hardware-_buffers.html#Creating-a-texture"]
+        ] ],
+        [ "Getting a PixelBuffer", "_hardware-_buffers.html#Getting-a-PixelBuffer"],
+        [ "Updating Pixel Buffers", "_hardware-_buffers.html#Updating-Pixel-Buffers"],
+        [ "Blit from memory", "_hardware-_buffers.html#blitFromMemory"],
+        [ "Direct memory locking", "_hardware-_buffers.html#Direct-memory-locking"],
+        [ "Texture Types", "_hardware-_buffers.html#Texture-Types"],
+        [ "Cube map textures", "_hardware-_buffers.html#Cube-map-textures"],
+        [ "Pixel Formats", "_hardware-_buffers.html#Pixel-Formats"],
+        [ "Colour channels", "_hardware-_buffers.html#Colour-channels"],
+        [ "List of pixel formats", "_hardware-_buffers.html#Complete-list-of-pixel-formats"],
+        [ "Pixel boxes", "_hardware-_buffers.html#Pixel-boxes"]
+      ] ]
+    ] ],
+    [ "Shadows", "_shadows.html", [
+      [ "Enabling shadows", "_shadows.html#Enabling-shadows"],
+      [ "Opting out of shadows", "_shadows.html#Opting-out-of-shadows"],
+      [ "Stencil Shadows", "_shadows.html#Stencil-Shadows"],
+      [ "Texture-based Shadows", "_shadows.html#Texture_002dbased-Shadows"],
+      [ "Configuring Texture Shadows", "_shadows.html#Configuring-Texture-Shadows"],
+      [ "Modulative Shadows", "_shadows.html#Modulative-Shadows"],
+      [ "Additive Light Masking", "_shadows.html#Additive-Light-Masking"]
+    ] ],
+    [ "Animation", "_animation.html", [
+      [ "Skeletal Animation", "_animation.html#Skeletal-Animation"],
+      [ "Vertex Animation", "_animation.html#Vertex-Animation"],
+      [ "SceneNode Animation", "_animation.html#SceneNode-Animation"],
+      [ "Numeric Value Animation", "_animation.html#Numeric-Value-Animation"]
+    ] ]
+]
