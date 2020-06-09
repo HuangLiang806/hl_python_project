@@ -1,3 +1,2 @@
 # hl_python_project
-this is my first project
-welcome
+利用Python爬取OGRE官方教程中的单词，以导入到手机APP中进行记忆
